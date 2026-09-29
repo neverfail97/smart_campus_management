@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: smart-campus-management
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    envVars:
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: FLASK_SECRET_KEY
+        generateValue: true
