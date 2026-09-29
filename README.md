@@ -73,3 +73,7 @@ Then open `http://127.0.0.1:5000`.
 - The timetable workspace uses the supplied first-year timetable’s 2026-2027 Semester I schedule windows as a visible reference, but does not upload its entries into the database.
 - The syllabus workspace identifies the supplied First Year B.Tech curriculum’s CSE-relevant Semester I courses and credit-oriented structure, but does not upload progress or subjects by default.
 - The department landing page is based on the official PTU CSE page and should be reviewed if institutional content changes.
+
+
+
+https://smart-campus-management-gfau.onrender.com/
